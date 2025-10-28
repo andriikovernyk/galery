@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(
+    rgb(0, 255, 145),
+    rgb(204, 255, 0),
+    rgb(255, 0, 0)
+  );
+}
+.header {
+  background-image: linear-gradient(
+    rgb(10, 6, 233),
+    rgb(255, 247, 0),
+    rgb(0, 255, 13)
+  );
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.gallery-item {
+  display: block;
+  width: 450px;
+}
+
+.divbilshe {
+  font-size: 50px;
+}
+.divbilshe:hover {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
