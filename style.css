@@ -42,9 +42,12 @@ ul {
 }
 
 .divbilshe {
+  width:50px;
+  height:50px;
   font-size: 50px;
 }
 .divbilshe:hover {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
   transition: 0.5s;
 }
+
